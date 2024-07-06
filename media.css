@@ -1,0 +1,83 @@
+body{
+    font-family:serif;
+}
+.total{
+    overflow-y: auto;
+}
+.top{
+    background-color: black;
+    height: 20%;
+}
+.h{
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 5px;
+}
+.books{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.book{
+    color: white;
+    padding-left: 20px;
+    opacity: 0.8; 
+    font-weight: 10;
+
+}
+.background{
+    background-image: url("https://c0.wallpaperflare.com/preview/623/328/32/black-and-white-bride-bride-and-groom-couple.jpg"); 
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; 
+    margin-top: 0px;
+}
+.head{
+    
+    color: rgb(246, 250, 238); 
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.but{
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(181, 133, 99);
+    margin-bottom: 20px;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.hs{
+    text-align: center;
+}
+.hp{
+    text-align: center;
+    font-style: italic;
+    /* background-color: rgb(150, 166, 166);  */
+    width:180px;
+    padding: 10px;
+
+}
+a{
+color: black;
+}
+.hm{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.dd{
+    display: flex;
+}
